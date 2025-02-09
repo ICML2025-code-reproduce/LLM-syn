@@ -35,4 +35,6 @@ Set up the OpenAI API key in the ```query_LLM``` function in the ```optimizer.py
 
 To plan with LLM-syn-planner on USPTO Easy dataset, run the following command,
 
+    mkdir USPTO-easy
+    mkdir found_route
     python main.py --method planning --dataset_name USPTO-easy
